@@ -13,6 +13,9 @@ css:
   - path: "css/main.css"
     valid: true
     bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+      - ['body', 'margin', 0]
     search:
       - "position: relative"
       - "position: absolute"
