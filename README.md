@@ -37,4 +37,4 @@ Drop this folder into your Markbot application. Make sure to fix all the errors.
 *These challenges are here if you’d like to try a little more work—they are for extra experience and learning. They are completely optional and not graded. Show them to me if you’d like—I’d love to see them.*
 
 1. Use the CSS `transition` property to make the bits animated when hovered.
-  [**Watch this video to see how it interacts.**](https://youtu.be/HZnfMeP2bh0)
+  <br>[**Watch this video to see how it interacts.**](https://youtu.be/HZnfMeP2bh0)
