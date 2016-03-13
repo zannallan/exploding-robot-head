@@ -1,0 +1,25 @@
+repo: "exploding-robot-head"
+canvasCourse: "467502"
+canvasAssignment: "4177781"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    locked: true
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    search:
+      - "position: relative"
+      - "position: absolute"
+      - "left"
+      - "right"
+      - "top"
+
+screenshots:
+  - path: "index.html"
+    sizes: [320, 980]
