@@ -1,9 +1,14 @@
 repo: "exploding-robot-head"
-canvasCourse: "467502"
-canvasAssignment: "4177781"
+canvasCourse: "web-dev-1"
 
 naming: true
-commits: 2
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: "index.html"
@@ -15,6 +20,7 @@ css:
     bestPractices: true
     has:
       - ['html', 'box-sizing', 'border-box']
+      - ['*', 'box-sizing', 'inherit']
       - ['body', 'margin', 0]
     search:
       - "position: relative"

@@ -1,11 +1,12 @@
-# Exploding robot head
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
-
+---
+summary: 'Use position relative & absolute to make this robot head explode when hovered.'
+time: '1 hour'
+deliverables: '1 HTML file, 1 CSS file, images'
 ---
 
-**Use position relative & absolute to make this robot head explode when hovered.**
+# Exploding robot head
+
+## Overview
 
 - *Fork this repository.*
 - Use `position` and coordinates to put the robot’s head together.
