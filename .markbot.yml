@@ -32,3 +32,21 @@ css:
 screenshots:
   - path: "index.html"
     sizes: [320, 980]
+
+functionality:
+  - path: index.html
+    tests:
+      - |
+        var left = $('.robot-head-left');
+        var oldLPos = left.getBoundingClientRect().top;
+        var right = $('.robot-head-right');
+        var oldRPos = right.getBoundingClientRect().top;
+        var brain = $('.robot-brain');
+        var oldBPos = brain.getBoundingClientRect().top;
+
+        hover('.robot', function () {
+          if (left.getBoundingClientRect().top === oldLPos) fail('The position of the robot’s left head piece doesn’t change when the robot is hovered');
+          if (right.getBoundingClientRect().top === oldRPos) fail('The position of the robot’s right head piece doesn’t change when the robot is hovered');
+          if (brain.getBoundingClientRect().top === oldBPos) fail('The position of the robot’s brain doesn’t change when the robot is hovered');
+          pass();
+        });
